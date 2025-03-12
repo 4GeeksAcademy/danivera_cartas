@@ -1,5 +1,26 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: grey;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+}
+.simbol{
+    justify-content: flex-start;
+    font-size:70px;
+    border:black 2px solid;
+
+}
+.number{
+    font-size:90px;
+    text-align:center ;
+}
+.simbol1{
+    font-size:70px;
+    transform:rotate(180deg);
 }
